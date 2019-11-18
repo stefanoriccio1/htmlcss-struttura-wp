@@ -49,3 +49,6 @@ footer{
   border: 3px solid black;
   margin-bottom: 5px;
 }
+.menu{
+  display: inline-block;
+}
