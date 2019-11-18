@@ -10,7 +10,7 @@ header {
 }
 /* main */
 main {
-  height: 800px;
+  /* height: 800px; */
   background-color: green
 }
 footer{
@@ -20,20 +20,23 @@ footer{
 /* colonne */
 .colonna{
   float: left;
-  height: 400px;
-  width: 200px;
+  /* height: 400px;
+  width: 200px; */
 }
-.colonna:after {
+main:after {
   content: "";
   display: table;
   clear: both;
 }
 .sinistra {
+  width: 33%;
   background-color: orange;
 }
 .centro{
+  width: 33%;
   background-color: lightblue;
 }
 .destra{
+  width: 33%;
   background-color: black;
 }
