@@ -3,3 +3,37 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* header */
+header {
+  height:300px;
+  background-color: red;
+}
+/* main */
+main {
+  height: 800px;
+  background-color: green
+}
+footer{
+  height: 200px;
+  background-color: yellow;
+}
+/* colonne */
+.colonna{
+  float: left;
+  height: 400px;
+  width: 200px;
+}
+.colonna:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sinistra {
+  background-color: orange;
+}
+.centro{
+  background-color: lightblue;
+}
+.destra{
+  background-color: black;
+}
