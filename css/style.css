@@ -9,10 +9,17 @@ header {
   background-color: red;
 }
 /* main */
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 main {
   /* height: 800px; */
-  background-color: green
+  background-color: green;
+  padding: 5px;
 }
+/* footer */
 footer{
   height: 200px;
   background-color: yellow;
@@ -22,21 +29,23 @@ footer{
   float: left;
   /* height: 400px;
   width: 200px; */
-}
-main:after {
-  content: "";
-  display: table;
-  clear: both;
+  padding: 10px;
+  margin-left: 3%;
 }
 .sinistra {
-  width: 33%;
+  width: 20%;
   background-color: orange;
 }
 .centro{
-  width: 33%;
+  width: 40%;
   background-color: lightblue;
 }
 .destra{
-  width: 33%;
-  background-color: black;
+  width: 20%;
+  background-color: pink;
+}
+/* boxes */
+.destra .box{
+  border: 3px solid black;
+  margin-bottom: 5px;
 }
